@@ -1,0 +1,12 @@
+What are the possible outcome(s) for “Jumble String”, when following code will be executed?
+import random
+stringN = "SimplyCoding"
+char_list = list(stringN)
+random.shuffle(char_list)
+stringN = ''.join(char_list)
+print ( stringN )
+( CmodlnpgiSyi )
+miSiypgoCdln
+‘lCSgpimiondy’
+kpCyodigntS
+Ans. (ii) will be printed
