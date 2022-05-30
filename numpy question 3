@@ -1,0 +1,7 @@
+3 - Identity Matrix
+Create an identity matrix of dimension 4-by-4
+sol:-
+
+i = np.eye(4)
+
+print(i)
