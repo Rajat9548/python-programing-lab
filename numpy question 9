@@ -1,0 +1,15 @@
+9 - Custom Sequence Generation
+Generate a sequence of numbers in the form of a numpy array from 0 to 100 with gaps of 2 numbers, for example: 0, 2, 4 ....
+
+ Solution:-
+
+list_of_numbers = [x for x in range(0, 101, 2)]
+
+o = np.array(list_of_numbers)
+
+print(o)
+Alternative Solution
+
+o = np.arange(0, 101, 2)
+
+print(o)
