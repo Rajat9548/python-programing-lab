@@ -1,0 +1,7 @@
+def func(a):
+      """returns x * a """      
+      
+      x = 5                    
+      return x * a
+print(func(5))
+print(x)
