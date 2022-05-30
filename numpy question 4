@@ -1,0 +1,9 @@
+4 - Array re-dimensioning
+Convert a 1-D array to a 3-D array
+ Solution:-
+
+a = np.array([x for x in range(27)])
+
+o = a.reshape((3,3,3))
+
+print(o)
