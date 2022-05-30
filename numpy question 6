@@ -1,0 +1,11 @@
+6 - Obtaining Boolean Array from Binary Array
+Convert a binary numpy array (containing only 0s and 1s) to a boolean numpy array
+ Solution:-
+
+a = np.array([[1, 0, 0],
+              [1, 1, 1],
+              [0, 0, 0]])
+
+o = a.astype('bool')
+
+print(o)
